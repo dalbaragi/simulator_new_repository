@@ -1,0 +1,1 @@
+-l"./configPkg/linker.cmd" "./main2.obj" "./Calculate.obj" -l"libc.a" 

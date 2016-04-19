@@ -1,0 +1,12 @@
+package.xdc
+package.xs
+package/xconfig_core1.sch
+package/.vers_g180
+package/.vers_r170
+package/.vers_b150
+package/.xdc-y25
+package/xconfig_core1.java
+package/xconfig_core1.class
+package/package_xconfig_core1.c
+package/package.defs.h
+package/xconfig_core1.ccs

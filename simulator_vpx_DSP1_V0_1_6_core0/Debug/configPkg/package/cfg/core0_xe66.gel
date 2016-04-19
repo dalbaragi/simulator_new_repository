@@ -1,0 +1,13 @@
+XDC_open() {
+    GEL_ProjectLoad("D:/lrh_workspace/projects/simulator_new/dsp_projects/workspace/workspace20151125/simulator_vpx_DSP1_V0_1_6_core0/Debug/configPkg/package/configPkg.pjt");
+    GEL_ProjectLoad("D:/lrh_workspace/projects/simulator_new/dsp_projects/workspace/workspace20151125/simulator_vpx_DSP1_V0_1_6_core0/Debug/configPkg/package/cfg/core0_xe66.pjt");
+    GEL_ProjectSetActive("D:/lrh_workspace/projects/simulator_new/dsp_projects/workspace/workspace20151125/simulator_vpx_DSP1_V0_1_6_core0/Debug/configPkg/package/cfg/core0_xe66.pjt");
+}
+XDC_close() {
+    GEL_ProjectClose("D:/lrh_workspace/projects/simulator_new/dsp_projects/workspace/workspace20151125/simulator_vpx_DSP1_V0_1_6_core0/Debug/configPkg/package/configPkg.pjt");
+    GEL_ProjectClose("D:/lrh_workspace/projects/simulator_new/dsp_projects/workspace/workspace20151125/simulator_vpx_DSP1_V0_1_6_core0/Debug/configPkg/package/cfg/core0_xe66.pjt");
+}
+menuitem "XDC Package"
+hotmenu load_executable () { GEL_Load("D:/lrh_workspace/projects/simulator_new/dsp_projects/workspace/workspace20151125/simulator_vpx_DSP1_V0_1_6_core0/Debug/configPkg/core0.xe66"); }
+hotmenu open_project () { XDC_open(); }
+hotmenu close_project () { XDC_close(); }

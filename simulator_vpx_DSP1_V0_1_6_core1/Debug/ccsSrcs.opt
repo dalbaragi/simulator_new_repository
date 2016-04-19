@@ -1,0 +1,1 @@
+"../SRIO_switch.c" "../core1.cfg" "../cppi_device.c" "../cppi_drv.c" "../device_srio_loopback.c" "../loopbackDioIsr_osal.c" "../main1.c" "../qmss_device.c" "../srio_drv.c" 

@@ -1,0 +1,1 @@
+-l"./configPkg/linker.cmd" "./main34567.obj" -l"libc.a" 
